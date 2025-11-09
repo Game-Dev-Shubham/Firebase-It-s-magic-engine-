@@ -84,6 +84,7 @@ public class Firebase extends Component {
     } catch (Exception e) {
       e.printStackTrace();
     }
-  } 
+  }
+} 
   
                                          
