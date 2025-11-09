@@ -85,23 +85,5 @@ public class Firebase extends Component {
       e.printStackTrace();
     }
   } 
-  /*
-   * deprecated 
-  String getValueFromJson(String json, String key) {
-    try {
-
-      if (json.contains("\"" + key + "\"")) {
-
-        String[] parts = json.split("\"" + key + "\"\\s*:\\s*\"");
-        if (parts.length > 1) {
-
-          return parts[1].split("\"")[0];
-        }
-      }
-    } catch (Exception e) {
-      e.printStackTrace();
-    }
-    return null; // key not found
-  }
-  */
-                                          }
+  
+                                         
